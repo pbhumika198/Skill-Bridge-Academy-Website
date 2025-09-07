@@ -1,0 +1,440 @@
+/* For tablets */
+@media only screen and (min-width:768px) and (max-width:992px){
+    .main-header {
+        padding: 15px 20px; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        flex-direction: row;
+    }
+    
+    .navbar ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding: 10px 20px; 
+    }
+    
+    .navbar ul li {
+        margin-bottom: 15px; 
+    }
+    .main_banner {
+        padding: 20px;
+        grid-template-columns: 1fr;
+        text-align: center;
+        
+    }
+    
+    .main_banner .main_img img {
+        display: flex;
+        padding: 40px;
+    }
+    
+    .mainbanner h4 {
+        font-size: 26px; 
+    }
+    
+    .mainbanner p {
+        font-size: 14px; 
+    }
+    
+    .mainbanner .btn {
+        margin-bottom: 15px; 
+    }
+    
+    .aboutus {
+        padding: 20px 20px; 
+        background-size: 30%;
+        background-position: right top; 
+    }
+    
+    .aboutus_img2 img {
+        margin-top: 40px; 
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    
+    .aboutus-content  h1 {
+        font-size: 24px; 
+    }
+    
+    .aboutus-content p {
+        font-size: 14px; 
+    }
+    
+    .aboutus_exp {
+        max-width: 100%; 
+        padding: 20px 15px; 
+    }
+    .aboutus-img1 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15px; 
+    }
+    
+    .aboutus-img1 img {
+        max-width: 100%; 
+        margin: 15px 0; 
+    }
+    .aboutus-img1 h4 {
+        margin-left: 10px; 
+        padding-left: 20px; 
+    }
+    .aboutus-img1 p {
+        margin-left: 10px;
+        text-align: left;
+        font-size: 14px; 
+        padding-left: 20px; 
+    }
+    .our_courses{
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px;
+
+    }
+    
+    .all_courses {
+        grid-template-columns: 1fr 1fr; 
+    }
+    
+     .course_contents {
+        padding:5px;
+        margin: 5px;
+    }
+     .course_contents p {
+        
+        text-align:left;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 15px;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+    
+    
+    
+    .our_courses {
+        padding: 15px;
+    }
+    
+    .course-en {
+        margin: 15px;
+    }
+    
+    .course-en button {
+        padding: 5px 25px;
+        border-radius: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        font-size: 12px; 
+    }
+    
+    .why_choose {
+        padding: 20px;
+        flex-direction: column;
+    }
+    
+    .choose-wc ul li h5 {
+        color: #2626e5;
+    }
+    
+    .choose-wc ul li h2 {
+        font-size: xx-large;
+    }
+    
+    .choose-wc ul li span {
+        color: #e59526;
+        opacity: 1;
+    }
+    
+    .choose-wc ul p {
+        font-size: 16px; 
+        line-height: 1.6;
+        font-weight: 400;
+        opacity: 0.7;
+        text-align: justify;
+    }
+    
+    .choose-wc ul span {
+        color: #2626e5;
+    }
+    
+    .container1 {
+        grid-template-columns: 1fr 1fr; 
+    }
+    
+    .learner {
+        padding: 20px 15px;
+        grid-template-columns: 1fr;
+        margin: 15px;
+    }
+    
+    .slider-container .slider .slide p {
+        text-align: justify;
+        margin-right: 15px;
+    }
+    
+    .slide-info {
+        line-height: 0.6;
+        margin-right: 15px;
+    }
+    
+    .prev, .next {
+        top: 80%;
+        right: 5%;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    .enroll_in {
+        padding: 15px;
+    }
+    .contacts_ref {
+        
+        margin-left: 0;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contacts_ref ul li p {
+        padding-left: 0; 
+        margin: 0px;
+    }
+    
+    
+    .copyright {
+        padding: 15px 20px; 
+    }
+    
+    .copyright1 ul {
+        padding: 10px 15px;
+        font-size: medium; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+        align-items:flex-start;
+        justify-items: center;
+    }
+    
+    .copyright2 ul li p {
+        font-size: 16px; 
+        opacity: 0.8;
+        text-align: center;
+    }
+}
+
+
+/* For mobile devices */
+@media only screen and (max-width:488px){
+    .main-header {
+        padding: 10px 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar ul li {
+        margin-bottom: 10px;
+    }
+    .main_banner {
+        padding: 10px;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .main_banner .main_img img {
+        display: flex;
+        margin: 0;
+        width: 80%;    
+    }
+    
+     .mainbanner h4 {
+        font-size: 30px;
+    }
+    .mainbanner p {
+        font-size: 12px;
+    }
+    .mainbanner .btn {
+        margin-bottom: 10px;   
+    }
+    
+    .aboutus {
+        padding: 10px 10px; 
+        background-size: 20%; 
+        background-position:right; 
+        background-position:top; 
+        background-position-y:5%;
+        background-position-x:70%;
+        
+    }
+    .aboutus_img2 img {
+        margin-top: 50px; 
+        margin-left: 0; 
+        width: 100%; 
+        border-top-left-radius: 30px; 
+        border-bottom-right-radius: 30px;
+    }
+
+    .aboutus-content  h1 {
+        font-size: 20px; 
+    }
+
+    .aboutus-content  p {
+        font-size: 12px;
+        display: flex;
+       
+    }
+
+    .aboutus_exp {
+        max-width: 100%; 
+        padding: 20px 10px; 
+    }
+
+    .aboutus-img1 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        
+    }
+    .aboutus-img1 img {
+        max-width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .aboutus-img1 h4{
+        margin-left: 0px; 
+        padding-left: 50px;
+        
+
+    }
+    .aboutus-img1 p {
+        margin-left: 0; 
+        text-align:left;
+        font-size: 12px;
+        padding-left: 50px; 
+        
+    }
+    
+    .all_courses {
+        grid-template-columns: 1fr;
+    }
+    .course{
+        padding:10px;
+        margin: 10px;
+    
+    }
+    .our_courses {
+        padding: 10px;
+    }
+    .course-en {
+        margin: 10px;
+    }
+    .course-en button {
+        padding: 2px 20px;
+        border-radius: 20x;
+        margin-right: 15px;
+        margin-top: 50px;
+        font-size: 10px;
+    }
+    
+    .why_choose {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .choose-wc ul li h5 {
+        color: #2626e5;
+    }
+    
+    .choose-wc ul li h2 {
+        font-size: xx-large;
+    }
+    
+    .choose-wc ul li span {
+        color: #e59526;
+        opacity: 1;
+    }
+    
+    .choose-wc ul p {
+        font-size: 15px;
+        line-height: 1.6;
+        font-weight: 400;
+        opacity: 0.5;
+        text-align: justify;
+    }
+    
+    .choose-wc ul span {
+        color: #2626e5;
+    }
+    .container1 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .learner {
+        padding: 20px 10px;
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+    .slider-container .slider .slide p{
+        
+        text-align:justify;
+        margin-right: 20px;
+    }
+    .slide-info {
+        line-height: 0.5;
+        margin-right: 20px;
+    }
+    .prev, .next {
+        top: 83%;
+        right: 10%;
+        background-color: rgba(0, 0, 0, 0.068);
+        
+    }
+
+    .enroll_in {
+        padding: 10px;
+    }
+    .contacts {
+        padding:0px; 
+    }
+
+    .dt_logo img {
+        width: 30%; 
+    }
+    .contacts_ref {
+        
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contacts_ref ul li p {
+        padding-left: 0; 
+        margin: 0px;
+    }
+    .copyright {
+        padding: 15px 10px; 
+    }
+
+    .copyright1 ul {
+        padding: 10px 10px;
+        font-size: small; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .copyright2 ul li p {    
+        font-size:15px;
+        opacity: 0.7;
+        text-align:center;
+    }     
+    
+    }
+
+    
+    
+    
+
+    
+
+
+
+    
