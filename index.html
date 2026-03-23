@@ -3,7 +3,7 @@
   <title>Internship UI Project</title>
   <!--meta tags-->
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compability" content="IE=edge" />
   <meta http-equiv="refresh" content="20" />
   <meta name="keywords" content="" />
@@ -14,7 +14,7 @@
   <!--favicon-->
   <link rel="icon" type="image/X-icon" href="" />
   <!--Font Family-->
-  <link rel="stylesheet" href="fonts/Noto Sans-Regular.tff" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
   <!--fontwesome icons-->
   <link rel="stylesheet" href="icons/css/all.css" />
   <link rel="stylesheet" href="icons/css/allmin.css" />
@@ -27,22 +27,28 @@
 <body>
 
   <!--Main Header-->
-  <header class="main-header">
-    <div class="brand-logo">
-      <img src="images/logo.jpg" alt="SKILLBRIDGE ACADEMY" width="100px" />
-    </div>
+<header class="main-header">
+<div class="main">
+<div class="brand-logo">
+<img src="images/logo.jpg" width="120">
+</div>
 
-    <div class="navbar">
-      <ul>
-        <li><a href="">HOME</a></li>
-        <li><a href="#about-section">ABOUT</a></li>
-        <li><a href="#course-section">COURSES</a></li>
-        <li><a href="#choose-section">CHOOSE US</a></li>
-        <li><a href="#review-section">REVIEWS</a></li>
-        <li><button>Enroll Now</button></li>
-      </ul>
-    </div>
-  </header>
+<div class="menu-toggle" id="menu-toggle">
+☰
+</div>
+</div>
+
+<nav class="navbar" id="navbar">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Courses</a></li>
+<li><a href="#">Contact</a></li>
+<button>Enroll Now</button>
+</ul>
+
+</nav>
+</header>
   <!--Main Header-->
 
  
@@ -322,7 +328,7 @@
           I learned full Java with real-time trainers who were not only available during 
           classes but also in their free time. Furthermore, the institute provided 
           significant assistance in improving my skills.
-          <p>
+        </p>
             <div class="img-slide">
           <img src="images/photo1.jpg" alt="photo1" >
         </div>
@@ -365,10 +371,6 @@
   <button class="prev" onclick="prevSlide()">❮</button>
   <button class="next" onclick="nextSlide()">❯</button>
 </div>   
-    </div>
-    
-</div>
-</div>
 </section>
 <!--Learners Insight  Section  Ends-->
 
@@ -396,7 +398,7 @@
 
 <div class="contacts_ref">
     <ul>
-        <li><a href="mailto:hello@digitinstitute.in"><i class="fa-regular fa-envelope"></i> Email</a></li>
+        <li><a href="mailto:hello@skillbridgeinstitute.in"><i class="fa-regular fa-envelope"></i> Email</a></li>
         <li><p>Hello@digitinstitute.in</p></li>
     </ul>
     <ul>
