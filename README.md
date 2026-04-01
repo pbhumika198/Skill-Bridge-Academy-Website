@@ -51,7 +51,7 @@ project/ │
 ## How to Run
 
 1. Download or clone the repository
- git@github.com:pbhumika198/Skill-Bridge-Academy-Website.git
+git@github.com:pbhumika198/Skill-Bridge-Academy-Website.git
    
  2. Open index.html in your browser
 
